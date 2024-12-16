@@ -1,0 +1,6 @@
+x = input('Введите целое число ')
+y = input('Введите целое число ')
+z = input('Введите целое число ')
+if x==y and y==z: print('3')
+elif x==y or y==z or z==x: print('2')
+elif not x==y and not y==z: print('0')
